@@ -6,7 +6,7 @@ class Background extends Component{
     return(
       <div className="backContainer">
         <div className="back"></div>
-        <img className="img" src={this.props.imgUrl}/>
+        <img alt="imagen" className="img" src={this.props.imgUrl}/>
       </div>
     );
   }

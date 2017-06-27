@@ -45,7 +45,7 @@ class Profile extends Component{
   }
 
   componentDidMount(){
-      const lupe = firebase.database().ref('users/'+"-Kn6iva81QlVVFqH5l24");
+      const lupe = firebase.database().ref('users/-Kn6iva81QlVVFqH5l24');
   lupe.on('value', (snapshot) => {
     console.log(snapshot.val());
     this.setState({
